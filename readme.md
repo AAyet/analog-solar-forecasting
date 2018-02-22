@@ -145,8 +145,12 @@ xr.Dataset({'variable1': (['dimension2', 'dimension3', 'dimension1'],
 ### Contact ###
 
 Alex Ayet
+
 alex.ayet@ifremer.fr
+
 https://www.eleves.ens.fr/home/ayet/
 
+
 Current PhD subject
+
 http://www.umr-lops.fr/Recherche/Theses-en-cours/Alex-Ayet
