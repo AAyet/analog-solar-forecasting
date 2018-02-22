@@ -9,7 +9,7 @@ The figures evaluate the performance of an Analog algorithm, used to forecast Gl
 
 ### Brief Description of the Analog Algorithm ###
 
-The Algorithm is the intellectual property of [Elum Energy](http://elum-energy.com/). Access to the code can be granted for research purposes, on a case-by-case basis. This repository contains only the ouptuts of the algorithm.
+The Algorithm is the intellectual property of [Elum Energy](http://elum-energy.com/). Access to the code can be granted for research purposes, on a case-by-case basis. This repository contains only the outputs of the algorithm.
 
 The algorithm uses an Analog method.
 
@@ -33,7 +33,7 @@ coefficients to propagate the observation and get a mean forecast and a
 variance
 
 The hypothesis behind the local linear operator is that the probability
-distribution function of the truth is gaussian. One can however use directely
+distribution function of the truth is gaussian. One can however use directly
 the successors as an ensemble of forecasts to estimate a different PDF.
 
 
@@ -94,7 +94,7 @@ This particular storage format was used to make score computation easier, as in 
 ```
 (point.forecast - point.truth)**2
 ```
-to get the squared error, since xarray package matches dimensions.
+to get the squared error, since the xarray package matches dimensions between Datasets.
 
 
 ### Notebooks contained in the repository ###
@@ -106,7 +106,7 @@ The repository contains two jupyter notebooks using the data contained in the da
 
 ### Quick introduction to xarray ###
 
-The data has been stored using [xarrays](http://xarray.pydata.org/en/stable/) datasets.
+The data has been stored using [xarray](http://xarray.pydata.org/en/stable/) datasets.
 An xarray dataset is a multidimentional collection of nummpy arrays, with
 common dimensions that have values and a name. It is usefull to handle multiple
 meteorological variables with latitude, longitude and time as dimensions for
